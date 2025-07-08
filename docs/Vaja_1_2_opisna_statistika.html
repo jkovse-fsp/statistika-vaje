@@ -7517,7 +7517,23 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Poro%C4%8Dilo-vaja-1.2">Poročilo vaja 1.2<a class="anchor-link" href="#Poro%C4%8Dilo-vaja-1.2">¶</a></h2><h4 id="Opisna-statistika-v-anketi-za-nogometne-trenerje">Opisna statistika v anketi za nogometne trenerje<a class="anchor-link" href="#Opisna-statistika-v-anketi-za-nogometne-trenerje">¶</a></h4><p>Najprej uvoz excel in spss podatkov v različni podatkovni strukturi.</p>
+<h2 id="Poro%C4%8Dilo-vaja-1.2">Poročilo vaja 1.2<a class="anchor-link" href="#Poro%C4%8Dilo-vaja-1.2">¶</a></h2><h4 id="Opisna-statistika-v-anketi-za-nogometne-trenerje">Opisna statistika v anketi za nogometne trenerje<a class="anchor-link" href="#Opisna-statistika-v-anketi-za-nogometne-trenerje">¶</a></h4><p>Imamo podatke ankete "<strong>Anketa za nogometne trenerje</strong>", ki je bila narejena v 1nki.</p>
+<ol>
+<li>Uvoz podatkov<ul>
+<li>Komentiraj razliko med excel in SPSS podatki iz ankete</li>
+</ul>
+</li>
+<li>Izvedi opisne statistike raziskave, na prečiščenih podatkih iz ankete, ki so v datoteki <em>anketa_precisceni 26 12 nogomet trenerji.sav</em>:<ul>
+<li>Značilnosti vzorca raziskave: demografske lastnosti, licenca, trenerske izkušnje, igralske izkušnje, izobrazba</li>
+<li>Odnos do poklica: pomembni dejavniki za trenerski poklic, pomembni dejavniki zadovoljstva</li>
+<li>Glavni problemi pri delu</li>
+</ul>
+</li>
+<li>Grafi:<ul>
+<li>Nekatere opisne statistike iz 2. točke opremi še z grafi.</li>
+</ul>
+</li>
+</ol>
 </div>
 </div>
 </div>
@@ -7526,7 +7542,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [82]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>  
@@ -7556,7 +7572,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [83]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Prikaz prvih 5 vrstic podatkov uvoženih iz .xlsl datoteke</span>
@@ -7571,7 +7587,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[83]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9139,7 +9155,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [84]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Prikaz prvih 5 vrstic podatkov uvoženih iz .sav datoteke</span>
@@ -9154,7 +9170,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[84]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10752,7 +10768,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [85]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s1">'index'</span><span class="p">)</span>
@@ -10769,9 +10785,8 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><em>Komentiraj razliko med excel in SPSS podatki iz ankete</em></p>
-<p>Excel podatki so sestavljeni iz dveh razpredelnic in imajo eno vrstico več. Prva razpredelnica vsebuje odgovore, ki so številsko kodirani, razen tisti, katere so anketiranci ročno vpisali. Druga razpredelnica vsebuje dejanske odgovore, ki so jih v anketi obkrožili anketiranci. Obe razpredelnici imata dodatno vrstico, v kateri so zapisana vprašanja.</p>
-<p><strong>SPSS podatki so opremljeni z metapodatki - to pomeni, da ima vsaka spremenljivka v opisu zapisano vprašanje, torej nima vrstice namenjene za vprašanje. Za analizo v spss ali jamovi je takšen način primernejši. Za analizo v R ali python pa na tak način izgubimo informacijo o vprašanjih</strong></p>
+<h4 id="1.-Komentiraj-razliko-med-excel-in-SPSS-podatki-iz-ankete.">1. Komentiraj razliko med excel in SPSS podatki iz ankete.<a class="anchor-link" href="#1.-Komentiraj-razliko-med-excel-in-SPSS-podatki-iz-ankete.">¶</a></h4><p>Excel podatki so sestavljeni iz dveh razpredelnic in imajo eno vrstico več. Prva razpredelnica vsebuje odgovore, ki so številsko kodirani, razen tisti, katere so anketiranci ročno vpisali. Druga razpredelnica vsebuje dejanske odgovore, ki so jih v anketi obkrožili anketiranci. Obe razpredelnici imata dodatno vrstico, v kateri so zapisana vprašanja.</p>
+<p><strong>SPSS podatki so opremljeni z metapodatki - to pomeni, da ima vsaka spremenljivka v opisu zapisano vprašanje, torej nima vrstice namenjene za vprašanje. Za analizo v spss ali jamovi je takšen način primernejši. Za analizo v R ali python pa na tak način izgubimo informacijo o vprašanjih.</strong></p>
 </div>
 </div>
 </div>
@@ -10780,7 +10795,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [86]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># funkcija, ki prečisti podatke, o letih treniranja </span>
@@ -10812,7 +10827,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [87]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pridobi podatke o značilnostih vzorca</span>
@@ -10848,7 +10863,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Zna%C4%8Dilnosti-vzorca-(Table-1)">Značilnosti vzorca (Table 1)<a class="anchor-link" href="#Zna%C4%8Dilnosti-vzorca-(Table-1)">¶</a></h2><p>V spodnji tabeli so prikazane splošne demografske značilnosti podatkov o trenerjih v Sloveniji. Podatki iz tabele so kasneje prikazani tudi z grafi.</p>
+<h4 id="2.-Zna%C4%8Dilnosti-vzorca-(Tabela-1)">2. Značilnosti vzorca (Tabela 1)<a class="anchor-link" href="#2.-Zna%C4%8Dilnosti-vzorca-(Tabela-1)">¶</a></h4><p>V spodnji tabeli so prikazane splošne demografske značilnosti podatkov o trenerjih v Sloveniji.</p>
 </div>
 </div>
 </div>
@@ -10857,7 +10872,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [88]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">format_categorical</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">var</span><span class="p">):</span>
@@ -10894,7 +10909,7 @@ a.anchor-link {
 <span class="n">table_one</span> <span class="o">+=</span> <span class="n">summarize_categorical</span><span class="p">(</span><span class="n">trenerska_usposobljenost</span><span class="p">,</span> <span class="n">name_row</span><span class="o">=</span><span class="s1">'Trenerska usposobljenost'</span><span class="p">)</span>
 <span class="n">table_one</span> <span class="o">+=</span> <span class="n">summarize_categorical</span><span class="p">(</span><span class="n">igralski_nivo</span><span class="p">,</span> <span class="n">name_row</span><span class="o">=</span><span class="s1">'Nivo aktivnega igranja'</span><span class="p">)</span>
 
-<span class="n">bold_indices</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">27</span><span class="p">]</span>
+<span class="n">bold_indices</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">26</span><span class="p">]</span>
 
 <span class="n">table_one</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">table_one</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Variable'</span><span class="p">,</span> <span class="s1">'Summary'</span><span class="p">])</span>
 <span class="n">table_one</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">set_caption</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Tabela 1: Značilnosti udeležencev študije (N = </span><span class="si">{</span><span class="n">N</span><span class="si">}</span><span class="s1">)'</span><span class="p">)</span>\
@@ -10918,154 +10933,548 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[88]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style type="text/css">
-#T_bb798 caption {
+#T_6a9de caption {
   font-size: 16px;
   font-weight: bold;
   border-bottom: 1px solid black;
   width: 100%;
 }
-#T_bb798 td {
+#T_6a9de td {
   text-align: left;
 }
-#T_bb798_row0_col0, #T_bb798_row0_col1, #T_bb798_row4_col0, #T_bb798_row4_col1, #T_bb798_row7_col0, #T_bb798_row7_col1, #T_bb798_row10_col0, #T_bb798_row10_col1, #T_bb798_row15_col0, #T_bb798_row15_col1, #T_bb798_row27_col0, #T_bb798_row27_col1 {
+#T_6a9de_row0_col0, #T_6a9de_row0_col1, #T_6a9de_row4_col0, #T_6a9de_row4_col1, #T_6a9de_row7_col0, #T_6a9de_row7_col1, #T_6a9de_row10_col0, #T_6a9de_row10_col1, #T_6a9de_row15_col0, #T_6a9de_row15_col1, #T_6a9de_row26_col0, #T_6a9de_row26_col1 {
   font-weight: bold;
 }
 </style>
-<table id="T_bb798">
+<table id="T_6a9de">
 <caption>Tabela 1: Značilnosti udeležencev študije (N = 835)</caption>
 <thead>
 </thead>
 <tbody>
 <tr>
-<td class="data row0 col0" id="T_bb798_row0_col0">Spol</td>
-<td class="data row0 col1" id="T_bb798_row0_col1"></td>
+<td class="data row0 col0" id="T_6a9de_row0_col0">Spol</td>
+<td class="data row0 col1" id="T_6a9de_row0_col1"></td>
 </tr>
 <tr>
-<td class="data row1 col0" id="T_bb798_row1_col0">  Drugo</td>
-<td class="data row1 col1" id="T_bb798_row1_col1">2 (0.4%)</td>
+<td class="data row1 col0" id="T_6a9de_row1_col0">  Drugo</td>
+<td class="data row1 col1" id="T_6a9de_row1_col1">2 (0.4%)</td>
 </tr>
 <tr>
-<td class="data row2 col0" id="T_bb798_row2_col0">  Moski</td>
-<td class="data row2 col1" id="T_bb798_row2_col1">502 (96.5%)</td>
+<td class="data row2 col0" id="T_6a9de_row2_col0">  Moski</td>
+<td class="data row2 col1" id="T_6a9de_row2_col1">502 (96.5%)</td>
 </tr>
 <tr>
-<td class="data row3 col0" id="T_bb798_row3_col0">  Ženski</td>
-<td class="data row3 col1" id="T_bb798_row3_col1">16 (3.1%)</td>
+<td class="data row3 col0" id="T_6a9de_row3_col0">  Ženski</td>
+<td class="data row3 col1" id="T_6a9de_row3_col1">16 (3.1%)</td>
 </tr>
 <tr>
-<td class="data row4 col0" id="T_bb798_row4_col0">Stopnja izobrazbe</td>
-<td class="data row4 col1" id="T_bb798_row4_col1"></td>
+<td class="data row4 col0" id="T_6a9de_row4_col0">Stopnja izobrazbe</td>
+<td class="data row4 col1" id="T_6a9de_row4_col1"></td>
 </tr>
 <tr>
-<td class="data row5 col0" id="T_bb798_row5_col0">  &lt;= srednjesolska</td>
-<td class="data row5 col1" id="T_bb798_row5_col1">239 (46.1%)</td>
+<td class="data row5 col0" id="T_6a9de_row5_col0">  &lt;= srednjesolska</td>
+<td class="data row5 col1" id="T_6a9de_row5_col1">239 (46.1%)</td>
 </tr>
 <tr>
-<td class="data row6 col0" id="T_bb798_row6_col0">  &gt; srednjesolska</td>
-<td class="data row6 col1" id="T_bb798_row6_col1">280 (53.9%)</td>
+<td class="data row6 col0" id="T_6a9de_row6_col0">  &gt; srednjesolska</td>
+<td class="data row6 col1" id="T_6a9de_row6_col1">280 (53.9%)</td>
 </tr>
 <tr>
-<td class="data row7 col0" id="T_bb798_row7_col0">Podrocje izobrazbe</td>
-<td class="data row7 col1" id="T_bb798_row7_col1"></td>
+<td class="data row7 col0" id="T_6a9de_row7_col0">Podrocje izobrazbe</td>
+<td class="data row7 col1" id="T_6a9de_row7_col1"></td>
 </tr>
 <tr>
-<td class="data row8 col0" id="T_bb798_row8_col0">  drugo</td>
-<td class="data row8 col1" id="T_bb798_row8_col1">322 (69.4%)</td>
+<td class="data row8 col0" id="T_6a9de_row8_col0">  drugo</td>
+<td class="data row8 col1" id="T_6a9de_row8_col1">322 (69.4%)</td>
 </tr>
 <tr>
-<td class="data row9 col0" id="T_bb798_row9_col0">  športno treniranje</td>
-<td class="data row9 col1" id="T_bb798_row9_col1">142 (30.6%)</td>
+<td class="data row9 col0" id="T_6a9de_row9_col0">  športno treniranje</td>
+<td class="data row9 col1" id="T_6a9de_row9_col1">142 (30.6%)</td>
 </tr>
 <tr>
-<td class="data row10 col0" id="T_bb798_row10_col0">Trenerske izkusnje</td>
-<td class="data row10 col1" id="T_bb798_row10_col1"></td>
+<td class="data row10 col0" id="T_6a9de_row10_col0">Trenerske izkusnje</td>
+<td class="data row10 col1" id="T_6a9de_row10_col1"></td>
 </tr>
 <tr>
-<td class="data row11 col0" id="T_bb798_row11_col0">  &lt; 10 let</td>
-<td class="data row11 col1" id="T_bb798_row11_col1">444 (53.8%)</td>
+<td class="data row11 col0" id="T_6a9de_row11_col0">  &lt; 10 let</td>
+<td class="data row11 col1" id="T_6a9de_row11_col1">444 (53.8%)</td>
 </tr>
 <tr>
-<td class="data row12 col0" id="T_bb798_row12_col0">  10-20 let</td>
-<td class="data row12 col1" id="T_bb798_row12_col1">251 (30.4%)</td>
+<td class="data row12 col0" id="T_6a9de_row12_col0">  10-20 let</td>
+<td class="data row12 col1" id="T_6a9de_row12_col1">251 (30.4%)</td>
 </tr>
 <tr>
-<td class="data row13 col0" id="T_bb798_row13_col0">  20-30 let</td>
-<td class="data row13 col1" id="T_bb798_row13_col1">94 (11.4%)</td>
+<td class="data row13 col0" id="T_6a9de_row13_col0">  20-30 let</td>
+<td class="data row13 col1" id="T_6a9de_row13_col1">94 (11.4%)</td>
 </tr>
 <tr>
-<td class="data row14 col0" id="T_bb798_row14_col0">  &gt;30 let</td>
-<td class="data row14 col1" id="T_bb798_row14_col1">36 (4.4%)</td>
+<td class="data row14 col0" id="T_6a9de_row14_col0">  &gt;30 let</td>
+<td class="data row14 col1" id="T_6a9de_row14_col1">36 (4.4%)</td>
 </tr>
 <tr>
-<td class="data row15 col0" id="T_bb798_row15_col0">Trenerska usposobljenost</td>
-<td class="data row15 col1" id="T_bb798_row15_col1"></td>
+<td class="data row15 col0" id="T_6a9de_row15_col0">Trenerska usposobljenost</td>
+<td class="data row15 col1" id="T_6a9de_row15_col1"></td>
 </tr>
 <tr>
-<td class="data row16 col0" id="T_bb798_row16_col0">  Trener C / UEFA C</td>
-<td class="data row16 col1" id="T_bb798_row16_col1">241 (29.2%)</td>
+<td class="data row16 col0" id="T_6a9de_row16_col0">  Trener C / UEFA C</td>
+<td class="data row16 col1" id="T_6a9de_row16_col1">241 (29.2%)</td>
 </tr>
 <tr>
-<td class="data row17 col0" id="T_bb798_row17_col0">  Trener Futsal C</td>
-<td class="data row17 col1" id="T_bb798_row17_col1">17 (2.1%)</td>
+<td class="data row17 col0" id="T_6a9de_row17_col0">  Trener Futsal C</td>
+<td class="data row17 col1" id="T_6a9de_row17_col1">17 (2.1%)</td>
 </tr>
 <tr>
-<td class="data row18 col0" id="T_bb798_row18_col0">  Trener Futsal UEFA B</td>
-<td class="data row18 col1" id="T_bb798_row18_col1">9 (1.1%)</td>
+<td class="data row18 col0" id="T_6a9de_row18_col0">  Trener Futsal UEFA B</td>
+<td class="data row18 col1" id="T_6a9de_row18_col1">9 (1.1%)</td>
 </tr>
 <tr>
-<td class="data row19 col0" id="T_bb798_row19_col0">  Trener PRO (nacionalni)</td>
-<td class="data row19 col1" id="T_bb798_row19_col1">119 (14.4%)</td>
+<td class="data row19 col0" id="T_6a9de_row19_col0">  Trener PRO (nacionalni)</td>
+<td class="data row19 col1" id="T_6a9de_row19_col1">119 (14.4%)</td>
 </tr>
 <tr>
-<td class="data row20 col0" id="T_bb798_row20_col0">  Trener UEFA A</td>
-<td class="data row20 col1" id="T_bb798_row20_col1">162 (19.7%)</td>
+<td class="data row20 col0" id="T_6a9de_row20_col0">  Trener UEFA A</td>
+<td class="data row20 col1" id="T_6a9de_row20_col1">162 (19.7%)</td>
 </tr>
 <tr>
-<td class="data row21 col0" id="T_bb798_row21_col0">  Trener UEFA B</td>
-<td class="data row21 col1" id="T_bb798_row21_col1">215 (26.1%)</td>
+<td class="data row21 col0" id="T_6a9de_row21_col0">  Trener UEFA B</td>
+<td class="data row21 col1" id="T_6a9de_row21_col1">215 (26.1%)</td>
 </tr>
 <tr>
-<td class="data row22 col0" id="T_bb798_row22_col0">  Trener UEFA PRO</td>
-<td class="data row22 col1" id="T_bb798_row22_col1">40 (4.9%)</td>
+<td class="data row22 col0" id="T_6a9de_row22_col0">  Trener UEFA PRO</td>
+<td class="data row22 col1" id="T_6a9de_row22_col1">40 (4.9%)</td>
 </tr>
 <tr>
-<td class="data row23 col0" id="T_bb798_row23_col0">  Trener vratarjev C</td>
-<td class="data row23 col1" id="T_bb798_row23_col1">5 (0.6%)</td>
+<td class="data row23 col0" id="T_6a9de_row23_col0">  Trener vratarjev C</td>
+<td class="data row23 col1" id="T_6a9de_row23_col1">5 (0.6%)</td>
 </tr>
 <tr>
-<td class="data row24 col0" id="T_bb798_row24_col0">  Trener vratarjev UEFA A</td>
-<td class="data row24 col1" id="T_bb798_row24_col1">5 (0.6%)</td>
+<td class="data row24 col0" id="T_6a9de_row24_col0">  Trener vratarjev UEFA A</td>
+<td class="data row24 col1" id="T_6a9de_row24_col1">5 (0.6%)</td>
 </tr>
 <tr>
-<td class="data row25 col0" id="T_bb798_row25_col0">  Trener vratarjev UEFA B</td>
-<td class="data row25 col1" id="T_bb798_row25_col1">11 (1.3%)</td>
+<td class="data row25 col0" id="T_6a9de_row25_col0">  Trener vratarjev UEFA B</td>
+<td class="data row25 col1" id="T_6a9de_row25_col1">11 (1.3%)</td>
 </tr>
 <tr>
-<td class="data row26 col0" id="T_bb798_row26_col0">Nivo aktivnega igranja</td>
-<td class="data row26 col1" id="T_bb798_row26_col1"></td>
+<td class="data row26 col0" id="T_6a9de_row26_col0">Nivo aktivnega igranja</td>
+<td class="data row26 col1" id="T_6a9de_row26_col1"></td>
 </tr>
 <tr>
-<td class="data row27 col0" id="T_bb798_row27_col0">  državni nivo</td>
-<td class="data row27 col1" id="T_bb798_row27_col1">383 (51.4%)</td>
+<td class="data row27 col0" id="T_6a9de_row27_col0">  državni nivo</td>
+<td class="data row27 col1" id="T_6a9de_row27_col1">383 (51.4%)</td>
 </tr>
 <tr>
-<td class="data row28 col0" id="T_bb798_row28_col0">  občinski nivo</td>
-<td class="data row28 col1" id="T_bb798_row28_col1">72 (9.7%)</td>
+<td class="data row28 col0" id="T_6a9de_row28_col0">  občinski nivo</td>
+<td class="data row28 col1" id="T_6a9de_row28_col1">72 (9.7%)</td>
 </tr>
 <tr>
-<td class="data row29 col0" id="T_bb798_row29_col0">  regionalni nivo</td>
-<td class="data row29 col1" id="T_bb798_row29_col1">214 (28.7%)</td>
+<td class="data row29 col0" id="T_6a9de_row29_col0">  regionalni nivo</td>
+<td class="data row29 col1" id="T_6a9de_row29_col1">214 (28.7%)</td>
 </tr>
 <tr>
-<td class="data row30 col0" id="T_bb798_row30_col0">  reprezentančni nivo</td>
-<td class="data row30 col1" id="T_bb798_row30_col1">76 (10.2%)</td>
+<td class="data row30 col0" id="T_6a9de_row30_col0">  reprezentančni nivo</td>
+<td class="data row30 col1" id="T_6a9de_row30_col1">76 (10.2%)</td>
 </tr>
 </tbody>
 </table>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ee716eef-1495-45e4-8616-e9fb52b7d571">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Tabela,-ki-prikazuje-odnos-do-poklica-(Tabela-2)">Tabela, ki prikazuje odnos do poklica (Tabela 2)<a class="anchor-link" href="#Tabela,-ki-prikazuje-odnos-do-poklica-(Tabela-2)">¶</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=890e37ee9ff670f3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [76]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># odnos do poklica</span>
+<span class="n">q34_labels</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">'Q34</span><span class="si">{</span><span class="nb">chr</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="si">}</span><span class="s1">'</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="s1">'a'</span><span class="p">),</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">'m'</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
+
+<span class="n">table_two</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">label</span> <span class="ow">in</span> <span class="n">q34_labels</span><span class="p">:</span>
+    <span class="n">q</span> <span class="o">=</span> <span class="n">questions</span><span class="p">[</span><span class="n">label</span><span class="p">]</span>
+    <span class="n">valid</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">ravel</span><span class="p">())</span>
+    <span class="n">missing</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">ravel</span><span class="p">())</span>
+    <span class="n">mean</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">median</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">median</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">mode</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">mode</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">q25</span><span class="p">,</span> <span class="n">q75</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">),</span> <span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span>
+    <span class="n">table_two</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="nb">str</span><span class="p">(</span><span class="n">q</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">valid</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">missing</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">mean</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">mode</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">median</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="sa">f</span><span class="s1">'(</span><span class="si">{</span><span class="n">q25</span><span class="si">}</span><span class="s1">, </span><span class="si">{</span><span class="n">q75</span><span class="si">}</span><span class="s1">)'</span><span class="p">)])</span>
+    
+<span class="n">table_two</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">table_two</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Dejavnik'</span><span class="p">,</span> <span class="s1">'Veljavni odgovori (N)'</span><span class="p">,</span> <span class="s1">'Manjkajoči odgovori (N)'</span><span class="p">,</span> <span class="s1">'Povprečje'</span><span class="p">,</span> <span class="s1">'Modus'</span><span class="p">,</span> <span class="s1">'Mediana'</span><span class="p">,</span> <span class="s1">'1 in 3 kvartil'</span><span class="p">])</span>
+<span class="n">table_two</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">set_caption</span><span class="p">(</span><span class="s1">'Tabela 2: Odnos do poklica'</span><span class="p">)</span>\
+          <span class="o">.</span><span class="n">set_table_styles</span><span class="p">([</span>
+              <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'caption'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="p">[(</span><span class="s1">'font-size'</span><span class="p">,</span> <span class="s1">'16px'</span><span class="p">),</span> 
+                                                <span class="p">(</span><span class="s1">'font-weight'</span><span class="p">,</span> <span class="s1">'bold'</span><span class="p">),</span> 
+                                                <span class="p">(</span><span class="s1">'border-bottom'</span><span class="p">,</span> <span class="s1">'1px solid black'</span><span class="p">),</span>
+                                                <span class="p">(</span><span class="s1">'width'</span><span class="p">,</span> <span class="s1">'100%'</span><span class="p">)]},</span>
+              <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'td'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="s1">'text-align: left;'</span><span class="p">}</span>
+          <span class="p">])</span>\
+          <span class="o">.</span><span class="n">hide</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[76]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<style type="text/css">
+#T_27141 caption {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+#T_27141 td {
+  text-align: left;
+}
+</style>
+<table id="T_27141">
+<caption>Tabela 2: Odnos do poklica</caption>
+<thead>
+<tr>
+<th class="col_heading level0 col0" id="T_27141_level0_col0">Dejavnik</th>
+<th class="col_heading level0 col1" id="T_27141_level0_col1">Veljavni odgovori (N)</th>
+<th class="col_heading level0 col2" id="T_27141_level0_col2">Manjkajoči odgovori (N)</th>
+<th class="col_heading level0 col3" id="T_27141_level0_col3">Povprečje</th>
+<th class="col_heading level0 col4" id="T_27141_level0_col4">Modus</th>
+<th class="col_heading level0 col5" id="T_27141_level0_col5">Mediana</th>
+<th class="col_heading level0 col6" id="T_27141_level0_col6">1 in 3 kvartil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="data row0 col0" id="T_27141_row0_col0">Pogoji dela</td>
+<td class="data row0 col1" id="T_27141_row0_col1">546</td>
+<td class="data row0 col2" id="T_27141_row0_col2">289</td>
+<td class="data row0 col3" id="T_27141_row0_col3">4.47</td>
+<td class="data row0 col4" id="T_27141_row0_col4">4</td>
+<td class="data row0 col5" id="T_27141_row0_col5">4.0</td>
+<td class="data row0 col6" id="T_27141_row0_col6">(4.0, 5.0)</td>
+</tr>
+<tr>
+<td class="data row1 col0" id="T_27141_row1_col0">Redno plačilo za opravljeno delo</td>
+<td class="data row1 col1" id="T_27141_row1_col1">545</td>
+<td class="data row1 col2" id="T_27141_row1_col2">290</td>
+<td class="data row1 col3" id="T_27141_row1_col3">4.3</td>
+<td class="data row1 col4" id="T_27141_row1_col4">4</td>
+<td class="data row1 col5" id="T_27141_row1_col5">4.0</td>
+<td class="data row1 col6" id="T_27141_row1_col6">(4.0, 5.0)</td>
+</tr>
+<tr>
+<td class="data row2 col0" id="T_27141_row2_col0">Možnosti napredovanja</td>
+<td class="data row2 col1" id="T_27141_row2_col1">544</td>
+<td class="data row2 col2" id="T_27141_row2_col2">291</td>
+<td class="data row2 col3" id="T_27141_row2_col3">4.23</td>
+<td class="data row2 col4" id="T_27141_row2_col4">4</td>
+<td class="data row2 col5" id="T_27141_row2_col5">4.0</td>
+<td class="data row2 col6" id="T_27141_row2_col6">(4.0, 5.0)</td>
+</tr>
+<tr>
+<td class="data row3 col0" id="T_27141_row3_col0">Nenehno dokazovanje</td>
+<td class="data row3 col1" id="T_27141_row3_col1">546</td>
+<td class="data row3 col2" id="T_27141_row3_col2">289</td>
+<td class="data row3 col3" id="T_27141_row3_col3">3.88</td>
+<td class="data row3 col4" id="T_27141_row3_col4">4</td>
+<td class="data row3 col5" id="T_27141_row3_col5">4.0</td>
+<td class="data row3 col6" id="T_27141_row3_col6">(3.0, 4.0)</td>
+</tr>
+<tr>
+<td class="data row4 col0" id="T_27141_row4_col0">Količina stresa pri delu</td>
+<td class="data row4 col1" id="T_27141_row4_col1">544</td>
+<td class="data row4 col2" id="T_27141_row4_col2">291</td>
+<td class="data row4 col3" id="T_27141_row4_col3">3.76</td>
+<td class="data row4 col4" id="T_27141_row4_col4">4</td>
+<td class="data row4 col5" id="T_27141_row4_col5">4.0</td>
+<td class="data row4 col6" id="T_27141_row4_col6">(3.0, 4.0)</td>
+</tr>
+<tr>
+<td class="data row5 col0" id="T_27141_row5_col0">Spoštovanje</td>
+<td class="data row5 col1" id="T_27141_row5_col1">546</td>
+<td class="data row5 col2" id="T_27141_row5_col2">289</td>
+<td class="data row5 col3" id="T_27141_row5_col3">4.5</td>
+<td class="data row5 col4" id="T_27141_row5_col4">5</td>
+<td class="data row5 col5" id="T_27141_row5_col5">5.0</td>
+<td class="data row5 col6" id="T_27141_row5_col6">(4.0, 5.0)</td>
+</tr>
+<tr>
+<td class="data row6 col0" id="T_27141_row6_col0">Priznavanje znanja, izkušenj</td>
+<td class="data row6 col1" id="T_27141_row6_col1">546</td>
+<td class="data row6 col2" id="T_27141_row6_col2">289</td>
+<td class="data row6 col3" id="T_27141_row6_col3">4.22</td>
+<td class="data row6 col4" id="T_27141_row6_col4">4</td>
+<td class="data row6 col5" id="T_27141_row6_col5">4.0</td>
+<td class="data row6 col6" id="T_27141_row6_col6">(4.0, 5.0)</td>
+</tr>
+<tr>
+<td class="data row7 col0" id="T_27141_row7_col0">Vrednotenje rezultatov dela</td>
+<td class="data row7 col1" id="T_27141_row7_col1">545</td>
+<td class="data row7 col2" id="T_27141_row7_col2">290</td>
+<td class="data row7 col3" id="T_27141_row7_col3">4.03</td>
+<td class="data row7 col4" id="T_27141_row7_col4">4</td>
+<td class="data row7 col5" id="T_27141_row7_col5">4.0</td>
+<td class="data row7 col6" id="T_27141_row7_col6">(4.0, 4.0)</td>
+</tr>
+<tr>
+<td class="data row8 col0" id="T_27141_row8_col0">Podpora vodilnih v klubu</td>
+<td class="data row8 col1" id="T_27141_row8_col1">545</td>
+<td class="data row8 col2" id="T_27141_row8_col2">290</td>
+<td class="data row8 col3" id="T_27141_row8_col3">4.44</td>
+<td class="data row8 col4" id="T_27141_row8_col4">5</td>
+<td class="data row8 col5" id="T_27141_row8_col5">4.0</td>
+<td class="data row8 col6" id="T_27141_row8_col6">(4.0, 5.0)</td>
+</tr>
+<tr>
+<td class="data row9 col0" id="T_27141_row9_col0">Dolgoročnost pogodbe o zaposlitvi</td>
+<td class="data row9 col1" id="T_27141_row9_col1">539</td>
+<td class="data row9 col2" id="T_27141_row9_col2">296</td>
+<td class="data row9 col3" id="T_27141_row9_col3">3.57</td>
+<td class="data row9 col4" id="T_27141_row9_col4">4</td>
+<td class="data row9 col5" id="T_27141_row9_col5">4.0</td>
+<td class="data row9 col6" id="T_27141_row9_col6">(3.0, 4.0)</td>
+</tr>
+<tr>
+<td class="data row10 col0" id="T_27141_row10_col0">Izpostavljenost dosežkov v medijih</td>
+<td class="data row10 col1" id="T_27141_row10_col1">541</td>
+<td class="data row10 col2" id="T_27141_row10_col2">294</td>
+<td class="data row10 col3" id="T_27141_row10_col3">3.03</td>
+<td class="data row10 col4" id="T_27141_row10_col4">3</td>
+<td class="data row10 col5" id="T_27141_row10_col5">3.0</td>
+<td class="data row10 col6" id="T_27141_row10_col6">(2.0, 4.0)</td>
+</tr>
+<tr>
+<td class="data row11 col0" id="T_27141_row11_col0">Medsebojna komunikacija (trener – vodilni)</td>
+<td class="data row11 col1" id="T_27141_row11_col1">545</td>
+<td class="data row11 col2" id="T_27141_row11_col2">290</td>
+<td class="data row11 col3" id="T_27141_row11_col3">4.34</td>
+<td class="data row11 col4" id="T_27141_row11_col4">4</td>
+<td class="data row11 col5" id="T_27141_row11_col5">4.0</td>
+<td class="data row11 col6" id="T_27141_row11_col6">(4.0, 5.0)</td>
+</tr>
+<tr>
+<td class="data row12 col0" id="T_27141_row12_col0">Zasledovanje skupnih ciljev</td>
+<td class="data row12 col1" id="T_27141_row12_col1">545</td>
+<td class="data row12 col2" id="T_27141_row12_col2">290</td>
+<td class="data row12 col3" id="T_27141_row12_col3">4.35</td>
+<td class="data row12 col4" id="T_27141_row12_col4">4</td>
+<td class="data row12 col5" id="T_27141_row12_col5">4.0</td>
+<td class="data row12 col6" id="T_27141_row12_col6">(4.0, 5.0)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ab1ec1b5-f222-4387-9777-def8fecf9499">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Iz tabele je razvidno, da so v povprečju nogometni trenerji mnenja, da je najbolj pomemben dejavnik za zadovoljstvo pri delu <em>spoštovanje</em> (povprečje 4,50), najmanj pomemben pa <em>izpostavljenost dosežkov v medijih</em> (povprečje 3,03). Najbolj pogost odgovor na večino vprašanj je <em>je pomembno</em>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=03acd681-cbbc-41e4-9177-5fb2033ae447">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Tabela,-ki-prikazuje-glavne-probleme-pri-delu-(Tabela-3)">Tabela, ki prikazuje glavne probleme pri delu (Tabela 3)<a class="anchor-link" href="#Tabela,-ki-prikazuje-glavne-probleme-pri-delu-(Tabela-3)">¶</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=eb990d5832eb71b9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [75]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">q32_labels</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">'Q32</span><span class="si">{</span><span class="nb">chr</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="si">}</span><span class="s1">'</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="s1">'a'</span><span class="p">),</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">'h'</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
+
+<span class="n">table_three</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">label</span> <span class="ow">in</span> <span class="n">q32_labels</span><span class="p">:</span>
+    <span class="n">q</span> <span class="o">=</span> <span class="n">questions</span><span class="p">[</span><span class="n">label</span><span class="p">]</span>
+    <span class="n">valid</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">ravel</span><span class="p">())</span>
+    <span class="n">missing</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">ravel</span><span class="p">())</span>
+    <span class="n">mean</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">median</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">median</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">mode</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">mode</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">q25</span><span class="p">,</span> <span class="n">q75</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">),</span> <span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="n">label</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span>
+    <span class="n">table_three</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="nb">str</span><span class="p">(</span><span class="n">q</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">valid</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">missing</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">mean</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">mode</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">median</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="sa">f</span><span class="s1">'(</span><span class="si">{</span><span class="n">q25</span><span class="si">}</span><span class="s1">, </span><span class="si">{</span><span class="n">q75</span><span class="si">}</span><span class="s1">)'</span><span class="p">)])</span>
+
+<span class="n">table_three</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">table_three</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Dejavnik'</span><span class="p">,</span> <span class="s1">'Veljavni odgovori (N)'</span><span class="p">,</span> <span class="s1">'Manjkajoči odgovori (N)'</span><span class="p">,</span> <span class="s1">'Povprečje'</span><span class="p">,</span> <span class="s1">'Modus'</span><span class="p">,</span> <span class="s1">'Mediana'</span><span class="p">,</span> <span class="s1">'1 in 3 kvartil'</span><span class="p">])</span>
+<span class="n">table_three</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">set_caption</span><span class="p">(</span><span class="s1">'Tabela 3: Problemi pri poklicu'</span><span class="p">)</span>\
+          <span class="o">.</span><span class="n">set_table_styles</span><span class="p">([</span>
+              <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'caption'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="p">[(</span><span class="s1">'font-size'</span><span class="p">,</span> <span class="s1">'16px'</span><span class="p">),</span> 
+                                                <span class="p">(</span><span class="s1">'font-weight'</span><span class="p">,</span> <span class="s1">'bold'</span><span class="p">),</span> 
+                                                <span class="p">(</span><span class="s1">'border-bottom'</span><span class="p">,</span> <span class="s1">'1px solid black'</span><span class="p">),</span>
+                                                <span class="p">(</span><span class="s1">'width'</span><span class="p">,</span> <span class="s1">'100%'</span><span class="p">)]},</span>
+              <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'td'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="s1">'text-align: left;'</span><span class="p">}</span>
+          <span class="p">])</span>\
+          <span class="o">.</span><span class="n">hide</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[75]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<style type="text/css">
+#T_af3eb caption {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+#T_af3eb td {
+  text-align: left;
+}
+</style>
+<table id="T_af3eb">
+<caption>Tabela 3: Problemi pri poklicu</caption>
+<thead>
+<tr>
+<th class="col_heading level0 col0" id="T_af3eb_level0_col0">Dejavnik</th>
+<th class="col_heading level0 col1" id="T_af3eb_level0_col1">Veljavni odgovori (N)</th>
+<th class="col_heading level0 col2" id="T_af3eb_level0_col2">Manjkajoči odgovori (N)</th>
+<th class="col_heading level0 col3" id="T_af3eb_level0_col3">Povprečje</th>
+<th class="col_heading level0 col4" id="T_af3eb_level0_col4">Modus</th>
+<th class="col_heading level0 col5" id="T_af3eb_level0_col5">Mediana</th>
+<th class="col_heading level0 col6" id="T_af3eb_level0_col6">1 in 3 kvartil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="data row0 col0" id="T_af3eb_row0_col0">Slabi pogoji za treniranje</td>
+<td class="data row0 col1" id="T_af3eb_row0_col1">553</td>
+<td class="data row0 col2" id="T_af3eb_row0_col2">282</td>
+<td class="data row0 col3" id="T_af3eb_row0_col3">2.74</td>
+<td class="data row0 col4" id="T_af3eb_row0_col4">2</td>
+<td class="data row0 col5" id="T_af3eb_row0_col5">3.0</td>
+<td class="data row0 col6" id="T_af3eb_row0_col6">(2.0, 4.0)</td>
+</tr>
+<tr>
+<td class="data row1 col0" id="T_af3eb_row1_col0">Neurejeni medčloveški odnosi</td>
+<td class="data row1 col1" id="T_af3eb_row1_col1">553</td>
+<td class="data row1 col2" id="T_af3eb_row1_col2">282</td>
+<td class="data row1 col3" id="T_af3eb_row1_col3">2.25</td>
+<td class="data row1 col4" id="T_af3eb_row1_col4">2</td>
+<td class="data row1 col5" id="T_af3eb_row1_col5">2.0</td>
+<td class="data row1 col6" id="T_af3eb_row1_col6">(2.0, 3.0)</td>
+</tr>
+<tr>
+<td class="data row2 col0" id="T_af3eb_row2_col0">Premalo nogometašev je pripravljenih za delo</td>
+<td class="data row2 col1" id="T_af3eb_row2_col1">552</td>
+<td class="data row2 col2" id="T_af3eb_row2_col2">283</td>
+<td class="data row2 col3" id="T_af3eb_row2_col3">2.99</td>
+<td class="data row2 col4" id="T_af3eb_row2_col4">2</td>
+<td class="data row2 col5" id="T_af3eb_row2_col5">3.0</td>
+<td class="data row2 col6" id="T_af3eb_row2_col6">(2.0, 4.0)</td>
+</tr>
+<tr>
+<td class="data row3 col0" id="T_af3eb_row3_col0">Slaba organizacija</td>
+<td class="data row3 col1" id="T_af3eb_row3_col1">553</td>
+<td class="data row3 col2" id="T_af3eb_row3_col2">282</td>
+<td class="data row3 col3" id="T_af3eb_row3_col3">2.53</td>
+<td class="data row3 col4" id="T_af3eb_row3_col4">2</td>
+<td class="data row3 col5" id="T_af3eb_row3_col5">2.0</td>
+<td class="data row3 col6" id="T_af3eb_row3_col6">(2.0, 3.0)</td>
+</tr>
+<tr>
+<td class="data row4 col0" id="T_af3eb_row4_col0">Neustrezno razporejena finančna sredstva, preveč v korist članskih moštev, premalo za mlajše kategorije</td>
+<td class="data row4 col1" id="T_af3eb_row4_col1">549</td>
+<td class="data row4 col2" id="T_af3eb_row4_col2">286</td>
+<td class="data row4 col3" id="T_af3eb_row4_col3">2.94</td>
+<td class="data row4 col4" id="T_af3eb_row4_col4">2</td>
+<td class="data row4 col5" id="T_af3eb_row4_col5">3.0</td>
+<td class="data row4 col6" id="T_af3eb_row4_col6">(2.0, 4.0)</td>
+</tr>
+<tr>
+<td class="data row5 col0" id="T_af3eb_row5_col0">Slaba infrastruktura (nogometno igrišče)</td>
+<td class="data row5 col1" id="T_af3eb_row5_col1">552</td>
+<td class="data row5 col2" id="T_af3eb_row5_col2">283</td>
+<td class="data row5 col3" id="T_af3eb_row5_col3">2.8</td>
+<td class="data row5 col4" id="T_af3eb_row5_col4">2</td>
+<td class="data row5 col5" id="T_af3eb_row5_col5">3.0</td>
+<td class="data row5 col6" id="T_af3eb_row5_col6">(2.0, 4.0)</td>
+</tr>
+<tr>
+<td class="data row6 col0" id="T_af3eb_row6_col0">Nestrpnost pri doseganju ciljev</td>
+<td class="data row6 col1" id="T_af3eb_row6_col1">551</td>
+<td class="data row6 col2" id="T_af3eb_row6_col2">284</td>
+<td class="data row6 col3" id="T_af3eb_row6_col3">2.62</td>
+<td class="data row6 col4" id="T_af3eb_row6_col4">2</td>
+<td class="data row6 col5" id="T_af3eb_row6_col5">2.0</td>
+<td class="data row6 col6" id="T_af3eb_row6_col6">(2.0, 3.0)</td>
+</tr>
+<tr>
+<td class="data row7 col0" id="T_af3eb_row7_col0">Zanemarjanje razvoja lastnih igralcev</td>
+<td class="data row7 col1" id="T_af3eb_row7_col1">554</td>
+<td class="data row7 col2" id="T_af3eb_row7_col2">281</td>
+<td class="data row7 col3" id="T_af3eb_row7_col3">2.52</td>
+<td class="data row7 col4" id="T_af3eb_row7_col4">2</td>
+<td class="data row7 col5" id="T_af3eb_row7_col5">2.0</td>
+<td class="data row7 col6" id="T_af3eb_row7_col6">(2.0, 3.0)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4db92c3a-7668-4cb8-b67e-417de69af758">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Iz tabele 3 lahko razberemo, da so trenerji najbolj nevtralni (3: <em>niti ne drži, niti drži</em>) glede naslednjih dejavnikov, ki vplivajo na probleme pri poklicu: <em>premalo nogometašev je pripravljenih za delo</em> (povprečje 2,99), <em>naustrezno razporejena finančna sredstva</em> (povprečje 2,94), <em>slaba infrastruktura</em> (povprečje 2,80). Na vsa vprašanja so sicer največkrat odgovorili z 2: <em>Ni pomembno</em>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7c23ccdd-24f8-4636-a240-b94a1866c7c4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="3.-Grafi,-ki-prikazujejo-zna%C4%8Dilnosti-vzorca-raziskave.">3. Grafi, ki prikazujejo <em><strong>značilnosti vzorca raziskave</strong></em>.<a class="anchor-link" href="#3.-Grafi,-ki-prikazujejo-zna%C4%8Dilnosti-vzorca-raziskave.">¶</a></h4>
 </div>
 </div>
 </div>
@@ -11221,390 +11630,13 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ee716eef-1495-45e4-8616-e9fb52b7d571">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7148f870-c08a-4d75-8204-7b8e3d2c9245">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Tabela, ki prikazuje odnos do poklica</strong></p>
-<p>Pod tabelo pa odgovore na vprašanje o pomembnih dejavnikih za trenerski poklic in pomembnih dejavnikih zadovoljstva prikazujeta dva grafa.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=890e37ee9ff670f3">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [94]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># odnos do poklica</span>
-<span class="n">q18a</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'Q18a'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span> <span class="s1">'DA'</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span> <span class="s1">'NE'</span><span class="p">,</span> <span class="mi">3</span><span class="p">:</span> <span class="s1">'NE VEM'</span><span class="p">})</span>
-<span class="n">q18b</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'Q18b'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span> <span class="s1">'DA'</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span> <span class="s1">'NE'</span><span class="p">,</span> <span class="mi">3</span><span class="p">:</span> <span class="s1">'NE VEM'</span><span class="p">})</span>
-<span class="n">q18c</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'Q18c'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span> <span class="s1">'DA'</span><span class="p">,</span> <span class="mi">2</span><span class="p">:</span> <span class="s1">'NE'</span><span class="p">,</span> <span class="mi">3</span><span class="p">:</span> <span class="s1">'NE VEM'</span><span class="p">})</span>
-
-<span class="n">q19</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'Q19a'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span> <span class="s1">'Zelo slabi'</span><span class="p">,</span>
-                     <span class="mi">2</span><span class="p">:</span> <span class="s1">'Slabi'</span><span class="p">,</span> 
-                     <span class="mi">3</span><span class="p">:</span> <span class="s1">'Niti dobri, niti slabi'</span><span class="p">,</span>
-                     <span class="mi">4</span><span class="p">:</span> <span class="s1">'Dobri'</span><span class="p">,</span>
-                     <span class="mi">5</span><span class="p">:</span> <span class="s1">'Zelo dobri'</span><span class="p">})</span>
-<span class="n">q23_map</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span> <span class="s1">'Sploh ni pomembno'</span><span class="p">,</span>
-           <span class="mi">2</span><span class="p">:</span> <span class="s1">'Ni pomembno'</span><span class="p">,</span>
-           <span class="mi">3</span><span class="p">:</span> <span class="s1">'Niti je, niti ni pomembno'</span><span class="p">,</span>
-           <span class="mi">4</span><span class="p">:</span> <span class="s1">'Je pomembno'</span><span class="p">,</span>
-           <span class="mi">5</span><span class="p">:</span> <span class="s1">'Zelo je pomembno'</span><span class="p">}</span>
-
-<span class="n">q23_labels</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">'Q23</span><span class="si">{</span><span class="nb">chr</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="si">}</span><span class="s1">'</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="s1">'a'</span><span class="p">),</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">'i'</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
-<span class="n">q23</span> <span class="o">=</span> <span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">q23_map</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">q23_labels</span><span class="p">]</span>
-
-<span class="n">table_two</span> <span class="o">=</span> <span class="p">[]</span>
-
-<span class="n">table_two</span> <span class="o">+=</span> <span class="n">summarize_categorical</span><span class="p">(</span><span class="n">q18a</span><span class="p">,</span> <span class="n">name_row</span><span class="o">=</span><span class="n">questions</span><span class="p">[</span><span class="s1">'Q18a'</span><span class="p">])</span>
-<span class="n">table_two</span> <span class="o">+=</span> <span class="n">summarize_categorical</span><span class="p">(</span><span class="n">q18b</span><span class="p">,</span> <span class="n">name_row</span><span class="o">=</span><span class="n">questions</span><span class="p">[</span><span class="s1">'Q18b'</span><span class="p">])</span>
-<span class="n">table_two</span> <span class="o">+=</span> <span class="n">summarize_categorical</span><span class="p">(</span><span class="n">q18c</span><span class="p">,</span> <span class="n">name_row</span><span class="o">=</span><span class="n">questions</span><span class="p">[</span><span class="s1">'Q18c'</span><span class="p">])</span>
-<span class="n">table_two</span> <span class="o">+=</span> <span class="n">summarize_categorical</span><span class="p">(</span><span class="n">q19</span><span class="p">,</span> <span class="n">name_row</span><span class="o">=</span><span class="n">questions</span><span class="p">[</span><span class="s1">'Q19a'</span><span class="p">])</span>
-
-<span class="n">bold_indices</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="mi">24</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">36</span><span class="p">,</span><span class="mi">42</span><span class="p">,</span><span class="mi">48</span><span class="p">,</span><span class="mi">54</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">66</span><span class="p">]</span>
-
-<span class="k">for</span> <span class="n">q</span><span class="p">,</span> <span class="n">q23_l</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">q23</span><span class="p">,</span> <span class="n">q23_labels</span><span class="p">):</span>
-    <span class="n">table_two</span> <span class="o">+=</span> <span class="n">summarize_categorical</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">name_row</span><span class="o">=</span><span class="n">questions</span><span class="p">[</span><span class="n">q23_l</span><span class="p">])</span>
-
-<span class="n">table_two</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">table_two</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Variable'</span><span class="p">,</span> <span class="s1">'Summary'</span><span class="p">])</span>
-<span class="n">table_two</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">set_caption</span><span class="p">(</span><span class="s1">'Tabela 2: Odnos do poklica'</span><span class="p">)</span>\
-          <span class="o">.</span><span class="n">set_table_styles</span><span class="p">([</span>
-              <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'caption'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="p">[(</span><span class="s1">'font-size'</span><span class="p">,</span> <span class="s1">'16px'</span><span class="p">),</span> 
-                                                <span class="p">(</span><span class="s1">'font-weight'</span><span class="p">,</span> <span class="s1">'bold'</span><span class="p">),</span> 
-                                                <span class="p">(</span><span class="s1">'border-bottom'</span><span class="p">,</span> <span class="s1">'1px solid black'</span><span class="p">),</span>
-                                                <span class="p">(</span><span class="s1">'width'</span><span class="p">,</span> <span class="s1">'100%'</span><span class="p">)]},</span>
-              <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'td'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="s1">'text-align: left;'</span><span class="p">}</span>
-          <span class="p">])</span>\
-          <span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">bold_rows</span><span class="p">,</span> <span class="n">bold_indices</span><span class="o">=</span><span class="n">bold_indices</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>\
-          <span class="o">.</span><span class="n">hide</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">'columns'</span><span class="p">)</span>\
-          <span class="o">.</span><span class="n">hide</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[94]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<style type="text/css">
-#T_b6486 caption {
-  font-size: 16px;
-  font-weight: bold;
-  border-bottom: 1px solid black;
-  width: 100%;
-}
-#T_b6486 td {
-  text-align: left;
-}
-#T_b6486_row0_col0, #T_b6486_row0_col1, #T_b6486_row4_col0, #T_b6486_row4_col1, #T_b6486_row8_col0, #T_b6486_row8_col1, #T_b6486_row12_col0, #T_b6486_row12_col1, #T_b6486_row18_col0, #T_b6486_row18_col1, #T_b6486_row24_col0, #T_b6486_row24_col1, #T_b6486_row30_col0, #T_b6486_row30_col1, #T_b6486_row36_col0, #T_b6486_row36_col1, #T_b6486_row42_col0, #T_b6486_row42_col1, #T_b6486_row48_col0, #T_b6486_row48_col1, #T_b6486_row54_col0, #T_b6486_row54_col1, #T_b6486_row60_col0, #T_b6486_row60_col1, #T_b6486_row66_col0, #T_b6486_row66_col1 {
-  font-weight: bold;
-}
-</style>
-<table id="T_b6486">
-<caption>Tabela 2: Odnos do poklica</caption>
-<thead>
-</thead>
-<tbody>
-<tr>
-<td class="data row0 col0" id="T_b6486_row0_col0">Po mojih dosedanjih izkušnjah s trenerstvom bi se ponovno odločil za ta poklic.</td>
-<td class="data row0 col1" id="T_b6486_row0_col1"></td>
-</tr>
-<tr>
-<td class="data row1 col0" id="T_b6486_row1_col0">  DA</td>
-<td class="data row1 col1" id="T_b6486_row1_col1">603 (81.0%)</td>
-</tr>
-<tr>
-<td class="data row2 col0" id="T_b6486_row2_col0">  NE</td>
-<td class="data row2 col1" id="T_b6486_row2_col1">48 (6.5%)</td>
-</tr>
-<tr>
-<td class="data row3 col0" id="T_b6486_row3_col0">  NE VEM</td>
-<td class="data row3 col1" id="T_b6486_row3_col1">93 (12.5%)</td>
-</tr>
-<tr>
-<td class="data row4 col0" id="T_b6486_row4_col0">Vodenje nogometne ekipe ustreza mojim nagnjenjem.</td>
-<td class="data row4 col1" id="T_b6486_row4_col1"></td>
-</tr>
-<tr>
-<td class="data row5 col0" id="T_b6486_row5_col0">  DA</td>
-<td class="data row5 col1" id="T_b6486_row5_col1">691 (93.3%)</td>
-</tr>
-<tr>
-<td class="data row6 col0" id="T_b6486_row6_col0">  NE</td>
-<td class="data row6 col1" id="T_b6486_row6_col1">18 (2.4%)</td>
-</tr>
-<tr>
-<td class="data row7 col0" id="T_b6486_row7_col0">  NE VEM</td>
-<td class="data row7 col1" id="T_b6486_row7_col1">32 (4.3%)</td>
-</tr>
-<tr>
-<td class="data row8 col0" id="T_b6486_row8_col0">V času mojega trenerstva pogosto mislim na to, da bi prenehal s tovrstnim delom.</td>
-<td class="data row8 col1" id="T_b6486_row8_col1"></td>
-</tr>
-<tr>
-<td class="data row9 col0" id="T_b6486_row9_col0">  DA</td>
-<td class="data row9 col1" id="T_b6486_row9_col1">151 (20.4%)</td>
-</tr>
-<tr>
-<td class="data row10 col0" id="T_b6486_row10_col0">  NE</td>
-<td class="data row10 col1" id="T_b6486_row10_col1">486 (65.6%)</td>
-</tr>
-<tr>
-<td class="data row11 col0" id="T_b6486_row11_col0">  NE VEM</td>
-<td class="data row11 col1" id="T_b6486_row11_col1">104 (14.0%)</td>
-</tr>
-<tr>
-<td class="data row12 col0" id="T_b6486_row12_col0">Moji dosedanji trenerski dosežki so</td>
-<td class="data row12 col1" id="T_b6486_row12_col1"></td>
-</tr>
-<tr>
-<td class="data row13 col0" id="T_b6486_row13_col0">  Dobri</td>
-<td class="data row13 col1" id="T_b6486_row13_col1">479 (64.3%)</td>
-</tr>
-<tr>
-<td class="data row14 col0" id="T_b6486_row14_col0">  Niti dobri, niti slabi</td>
-<td class="data row14 col1" id="T_b6486_row14_col1">120 (16.1%)</td>
-</tr>
-<tr>
-<td class="data row15 col0" id="T_b6486_row15_col0">  Slabi</td>
-<td class="data row15 col1" id="T_b6486_row15_col1">3 (0.4%)</td>
-</tr>
-<tr>
-<td class="data row16 col0" id="T_b6486_row16_col0">  Zelo dobri</td>
-<td class="data row16 col1" id="T_b6486_row16_col1">142 (19.1%)</td>
-</tr>
-<tr>
-<td class="data row17 col0" id="T_b6486_row17_col0">  Zelo slabi</td>
-<td class="data row17 col1" id="T_b6486_row17_col1">1 (0.1%)</td>
-</tr>
-<tr>
-<td class="data row18 col0" id="T_b6486_row18_col0">uresničevanje svojih idej v praksi</td>
-<td class="data row18 col1" id="T_b6486_row18_col1"></td>
-</tr>
-<tr>
-<td class="data row19 col0" id="T_b6486_row19_col0">  Je pomembno</td>
-<td class="data row19 col1" id="T_b6486_row19_col1">390 (60.3%)</td>
-</tr>
-<tr>
-<td class="data row20 col0" id="T_b6486_row20_col0">  Ni pomembno</td>
-<td class="data row20 col1" id="T_b6486_row20_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row21 col0" id="T_b6486_row21_col0">  Niti je, niti ni pomembno</td>
-<td class="data row21 col1" id="T_b6486_row21_col1">14 (2.2%)</td>
-</tr>
-<tr>
-<td class="data row22 col0" id="T_b6486_row22_col0">  Sploh ni pomembno</td>
-<td class="data row22 col1" id="T_b6486_row22_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row23 col0" id="T_b6486_row23_col0">  Zelo je pomembno</td>
-<td class="data row23 col1" id="T_b6486_row23_col1">241 (37.2%)</td>
-</tr>
-<tr>
-<td class="data row24 col0" id="T_b6486_row24_col0">možnost raznovrstnega treniranja</td>
-<td class="data row24 col1" id="T_b6486_row24_col1"></td>
-</tr>
-<tr>
-<td class="data row25 col0" id="T_b6486_row25_col0">  Je pomembno</td>
-<td class="data row25 col1" id="T_b6486_row25_col1">379 (58.6%)</td>
-</tr>
-<tr>
-<td class="data row26 col0" id="T_b6486_row26_col0">  Ni pomembno</td>
-<td class="data row26 col1" id="T_b6486_row26_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row27 col0" id="T_b6486_row27_col0">  Niti je, niti ni pomembno</td>
-<td class="data row27 col1" id="T_b6486_row27_col1">20 (3.1%)</td>
-</tr>
-<tr>
-<td class="data row28 col0" id="T_b6486_row28_col0">  Sploh ni pomembno</td>
-<td class="data row28 col1" id="T_b6486_row28_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row29 col0" id="T_b6486_row29_col0">  Zelo je pomembno</td>
-<td class="data row29 col1" id="T_b6486_row29_col1">246 (38.0%)</td>
-</tr>
-<tr>
-<td class="data row30 col0" id="T_b6486_row30_col0">pogoji za trening in tekmovanje</td>
-<td class="data row30 col1" id="T_b6486_row30_col1"></td>
-</tr>
-<tr>
-<td class="data row31 col0" id="T_b6486_row31_col0">  Je pomembno</td>
-<td class="data row31 col1" id="T_b6486_row31_col1">231 (35.7%)</td>
-</tr>
-<tr>
-<td class="data row32 col0" id="T_b6486_row32_col0">  Ni pomembno</td>
-<td class="data row32 col1" id="T_b6486_row32_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row33 col0" id="T_b6486_row33_col0">  Niti je, niti ni pomembno</td>
-<td class="data row33 col1" id="T_b6486_row33_col1">6 (0.9%)</td>
-</tr>
-<tr>
-<td class="data row34 col0" id="T_b6486_row34_col0">  Sploh ni pomembno</td>
-<td class="data row34 col1" id="T_b6486_row34_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row35 col0" id="T_b6486_row35_col0">  Zelo je pomembno</td>
-<td class="data row35 col1" id="T_b6486_row35_col1">408 (63.1%)</td>
-</tr>
-<tr>
-<td class="data row36 col0" id="T_b6486_row36_col0">stiki z drugimi strokovnjaki</td>
-<td class="data row36 col1" id="T_b6486_row36_col1"></td>
-</tr>
-<tr>
-<td class="data row37 col0" id="T_b6486_row37_col0">  Je pomembno</td>
-<td class="data row37 col1" id="T_b6486_row37_col1">364 (56.3%)</td>
-</tr>
-<tr>
-<td class="data row38 col0" id="T_b6486_row38_col0">  Ni pomembno</td>
-<td class="data row38 col1" id="T_b6486_row38_col1">3 (0.5%)</td>
-</tr>
-<tr>
-<td class="data row39 col0" id="T_b6486_row39_col0">  Niti je, niti ni pomembno</td>
-<td class="data row39 col1" id="T_b6486_row39_col1">53 (8.2%)</td>
-</tr>
-<tr>
-<td class="data row40 col0" id="T_b6486_row40_col0">  Sploh ni pomembno</td>
-<td class="data row40 col1" id="T_b6486_row40_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row41 col0" id="T_b6486_row41_col0">  Zelo je pomembno</td>
-<td class="data row41 col1" id="T_b6486_row41_col1">226 (34.9%)</td>
-</tr>
-<tr>
-<td class="data row42 col0" id="T_b6486_row42_col0">ustvarjalno delo</td>
-<td class="data row42 col1" id="T_b6486_row42_col1"></td>
-</tr>
-<tr>
-<td class="data row43 col0" id="T_b6486_row43_col0">  Je pomembno</td>
-<td class="data row43 col1" id="T_b6486_row43_col1">378 (58.5%)</td>
-</tr>
-<tr>
-<td class="data row44 col0" id="T_b6486_row44_col0">  Ni pomembno</td>
-<td class="data row44 col1" id="T_b6486_row44_col1">3 (0.5%)</td>
-</tr>
-<tr>
-<td class="data row45 col0" id="T_b6486_row45_col0">  Niti je, niti ni pomembno</td>
-<td class="data row45 col1" id="T_b6486_row45_col1">32 (5.0%)</td>
-</tr>
-<tr>
-<td class="data row46 col0" id="T_b6486_row46_col0">  Sploh ni pomembno</td>
-<td class="data row46 col1" id="T_b6486_row46_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row47 col0" id="T_b6486_row47_col0">  Zelo je pomembno</td>
-<td class="data row47 col1" id="T_b6486_row47_col1">232 (35.9%)</td>
-</tr>
-<tr>
-<td class="data row48 col0" id="T_b6486_row48_col0">rezultatski uspehi</td>
-<td class="data row48 col1" id="T_b6486_row48_col1"></td>
-</tr>
-<tr>
-<td class="data row49 col0" id="T_b6486_row49_col0">  Je pomembno</td>
-<td class="data row49 col1" id="T_b6486_row49_col1">345 (53.2%)</td>
-</tr>
-<tr>
-<td class="data row50 col0" id="T_b6486_row50_col0">  Ni pomembno</td>
-<td class="data row50 col1" id="T_b6486_row50_col1">46 (7.1%)</td>
-</tr>
-<tr>
-<td class="data row51 col0" id="T_b6486_row51_col0">  Niti je, niti ni pomembno</td>
-<td class="data row51 col1" id="T_b6486_row51_col1">165 (25.5%)</td>
-</tr>
-<tr>
-<td class="data row52 col0" id="T_b6486_row52_col0">  Sploh ni pomembno</td>
-<td class="data row52 col1" id="T_b6486_row52_col1">2 (0.3%)</td>
-</tr>
-<tr>
-<td class="data row53 col0" id="T_b6486_row53_col0">  Zelo je pomembno</td>
-<td class="data row53 col1" id="T_b6486_row53_col1">90 (13.9%)</td>
-</tr>
-<tr>
-<td class="data row54 col0" id="T_b6486_row54_col0">napredek mladih nogometašev</td>
-<td class="data row54 col1" id="T_b6486_row54_col1"></td>
-</tr>
-<tr>
-<td class="data row55 col0" id="T_b6486_row55_col0">  Je pomembno</td>
-<td class="data row55 col1" id="T_b6486_row55_col1">173 (26.7%)</td>
-</tr>
-<tr>
-<td class="data row56 col0" id="T_b6486_row56_col0">  Ni pomembno</td>
-<td class="data row56 col1" id="T_b6486_row56_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row57 col0" id="T_b6486_row57_col0">  Niti je, niti ni pomembno</td>
-<td class="data row57 col1" id="T_b6486_row57_col1">7 (1.1%)</td>
-</tr>
-<tr>
-<td class="data row58 col0" id="T_b6486_row58_col0">  Sploh ni pomembno</td>
-<td class="data row58 col1" id="T_b6486_row58_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row59 col0" id="T_b6486_row59_col0">  Zelo je pomembno</td>
-<td class="data row59 col1" id="T_b6486_row59_col1">465 (71.9%)</td>
-</tr>
-<tr>
-<td class="data row60 col0" id="T_b6486_row60_col0">podpora vodstvenih struktur v klubu</td>
-<td class="data row60 col1" id="T_b6486_row60_col1"></td>
-</tr>
-<tr>
-<td class="data row61 col0" id="T_b6486_row61_col0">  Je pomembno</td>
-<td class="data row61 col1" id="T_b6486_row61_col1">283 (43.7%)</td>
-</tr>
-<tr>
-<td class="data row62 col0" id="T_b6486_row62_col0">  Ni pomembno</td>
-<td class="data row62 col1" id="T_b6486_row62_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row63 col0" id="T_b6486_row63_col0">  Niti je, niti ni pomembno</td>
-<td class="data row63 col1" id="T_b6486_row63_col1">16 (2.5%)</td>
-</tr>
-<tr>
-<td class="data row64 col0" id="T_b6486_row64_col0">  Sploh ni pomembno</td>
-<td class="data row64 col1" id="T_b6486_row64_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row65 col0" id="T_b6486_row65_col0">  Zelo je pomembno</td>
-<td class="data row65 col1" id="T_b6486_row65_col1">346 (53.5%)</td>
-</tr>
-<tr>
-<td class="data row66 col0" id="T_b6486_row66_col0">Podpora vodilnih na NZS</td>
-<td class="data row66 col1" id="T_b6486_row66_col1"></td>
-</tr>
-<tr>
-<td class="data row67 col0" id="T_b6486_row67_col0">  Je pomembno</td>
-<td class="data row67 col1" id="T_b6486_row67_col1">250 (38.6%)</td>
-</tr>
-<tr>
-<td class="data row68 col0" id="T_b6486_row68_col0">  Ni pomembno</td>
-<td class="data row68 col1" id="T_b6486_row68_col1">20 (3.1%)</td>
-</tr>
-<tr>
-<td class="data row69 col0" id="T_b6486_row69_col0">  Niti je, niti ni pomembno</td>
-<td class="data row69 col1" id="T_b6486_row69_col1">74 (11.4%)</td>
-</tr>
-<tr>
-<td class="data row70 col0" id="T_b6486_row70_col0">  Sploh ni pomembno</td>
-<td class="data row70 col1" id="T_b6486_row70_col1">11 (1.7%)</td>
-</tr>
-<tr>
-<td class="data row71 col0" id="T_b6486_row71_col0">  Zelo je pomembno</td>
-<td class="data row71 col1" id="T_b6486_row71_col1">292 (45.1%)</td>
-</tr>
-</tbody>
-</table>
-</div>
+<h4 id="Grafa,-ki-opisujeta-odnos-do-poklica.">Grafa, ki opisujeta <em><strong>odnos do poklica</strong></em>.<a class="anchor-link" href="#Grafa,-ki-opisujeta-odnos-do-poklica.">¶</a></h4>
 </div>
 </div>
 </div>
@@ -11686,303 +11718,13 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f51e34d5-a4d7-43db-9733-b13aeceaca7b">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e50d038c-a48c-483f-a4ea-91f263f520d8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Tabela, ki prikazuje glavne probleme pri delu</strong></p>
-<p>Pod tabelo pa odgovore na vprašanje o glavnih problemih pri delu prikazuje še graf.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=eb990d5832eb71b9">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">q32_map</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span> <span class="s1">'Niti malo ne drži'</span><span class="p">,</span>
-           <span class="mi">2</span><span class="p">:</span> <span class="s1">'Ne drži'</span><span class="p">,</span>
-           <span class="mi">3</span><span class="p">:</span> <span class="s1">'Niti ne drži, niti drži'</span><span class="p">,</span>
-           <span class="mi">4</span><span class="p">:</span> <span class="s1">'Drži'</span><span class="p">,</span>
-           <span class="mi">5</span><span class="p">:</span> <span class="s1">'Zelo drži'</span><span class="p">}</span>
-
-<span class="n">q32_labels</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">'Q32</span><span class="si">{</span><span class="nb">chr</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="si">}</span><span class="s1">'</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="s1">'a'</span><span class="p">),</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">'h'</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
-<span class="n">q32</span> <span class="o">=</span> <span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">q32_map</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">q32_labels</span><span class="p">]</span>
-
-<span class="n">table_three</span> <span class="o">=</span> <span class="p">[]</span>
-
-<span class="k">for</span> <span class="n">q</span><span class="p">,</span> <span class="n">q23_l</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">q23</span><span class="p">,</span> <span class="n">q23_labels</span><span class="p">):</span>
-    <span class="n">table_three</span> <span class="o">+=</span> <span class="n">summarize_categorical</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">name_row</span><span class="o">=</span><span class="n">questions</span><span class="p">[</span><span class="n">q23_l</span><span class="p">])</span>
-
-<span class="n">bold_indices</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="mi">24</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">36</span><span class="p">,</span><span class="mi">42</span><span class="p">,</span><span class="mi">48</span><span class="p">]</span>
-
-<span class="n">table_three</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">table_three</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Variable'</span><span class="p">,</span> <span class="s1">'Summary'</span><span class="p">])</span>
-<span class="n">table_three</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">set_caption</span><span class="p">(</span><span class="s1">'Tabela 3: Problemi pri poklicu'</span><span class="p">)</span>\
-          <span class="o">.</span><span class="n">set_table_styles</span><span class="p">([</span>
-              <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'caption'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="p">[(</span><span class="s1">'font-size'</span><span class="p">,</span> <span class="s1">'16px'</span><span class="p">),</span> 
-                                                <span class="p">(</span><span class="s1">'font-weight'</span><span class="p">,</span> <span class="s1">'bold'</span><span class="p">),</span> 
-                                                <span class="p">(</span><span class="s1">'border-bottom'</span><span class="p">,</span> <span class="s1">'1px solid black'</span><span class="p">),</span>
-                                                <span class="p">(</span><span class="s1">'width'</span><span class="p">,</span> <span class="s1">'100%'</span><span class="p">)]},</span>
-              <span class="p">{</span><span class="s1">'selector'</span><span class="p">:</span> <span class="s1">'td'</span><span class="p">,</span> <span class="s1">'props'</span><span class="p">:</span> <span class="s1">'text-align: left;'</span><span class="p">}</span>
-          <span class="p">])</span>\
-          <span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">bold_rows</span><span class="p">,</span> <span class="n">bold_indices</span><span class="o">=</span><span class="n">bold_indices</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>\
-          <span class="o">.</span><span class="n">hide</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">'columns'</span><span class="p">)</span>\
-          <span class="o">.</span><span class="n">hide</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<style type="text/css">
-#T_bfa5c caption {
-  font-size: 16px;
-  font-weight: bold;
-  border-bottom: 1px solid black;
-  width: 100%;
-}
-#T_bfa5c td {
-  text-align: left;
-}
-#T_bfa5c_row0_col0, #T_bfa5c_row0_col1, #T_bfa5c_row6_col0, #T_bfa5c_row6_col1, #T_bfa5c_row12_col0, #T_bfa5c_row12_col1, #T_bfa5c_row18_col0, #T_bfa5c_row18_col1, #T_bfa5c_row24_col0, #T_bfa5c_row24_col1, #T_bfa5c_row30_col0, #T_bfa5c_row30_col1, #T_bfa5c_row36_col0, #T_bfa5c_row36_col1, #T_bfa5c_row42_col0, #T_bfa5c_row42_col1, #T_bfa5c_row48_col0, #T_bfa5c_row48_col1 {
-  font-weight: bold;
-}
-</style>
-<table id="T_bfa5c">
-<caption>Table 3: Problemi pri poklicu</caption>
-<thead>
-</thead>
-<tbody>
-<tr>
-<td class="data row0 col0" id="T_bfa5c_row0_col0">uresničevanje svojih idej v praksi</td>
-<td class="data row0 col1" id="T_bfa5c_row0_col1"></td>
-</tr>
-<tr>
-<td class="data row1 col0" id="T_bfa5c_row1_col0">  Je pomembno</td>
-<td class="data row1 col1" id="T_bfa5c_row1_col1">390 (60.3%)</td>
-</tr>
-<tr>
-<td class="data row2 col0" id="T_bfa5c_row2_col0">  Ni pomembno</td>
-<td class="data row2 col1" id="T_bfa5c_row2_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row3 col0" id="T_bfa5c_row3_col0">  Niti je, niti ni pomembno</td>
-<td class="data row3 col1" id="T_bfa5c_row3_col1">14 (2.2%)</td>
-</tr>
-<tr>
-<td class="data row4 col0" id="T_bfa5c_row4_col0">  Sploh ni pomembno</td>
-<td class="data row4 col1" id="T_bfa5c_row4_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row5 col0" id="T_bfa5c_row5_col0">  Zelo je pomembno</td>
-<td class="data row5 col1" id="T_bfa5c_row5_col1">241 (37.2%)</td>
-</tr>
-<tr>
-<td class="data row6 col0" id="T_bfa5c_row6_col0">možnost raznovrstnega treniranja</td>
-<td class="data row6 col1" id="T_bfa5c_row6_col1"></td>
-</tr>
-<tr>
-<td class="data row7 col0" id="T_bfa5c_row7_col0">  Je pomembno</td>
-<td class="data row7 col1" id="T_bfa5c_row7_col1">379 (58.6%)</td>
-</tr>
-<tr>
-<td class="data row8 col0" id="T_bfa5c_row8_col0">  Ni pomembno</td>
-<td class="data row8 col1" id="T_bfa5c_row8_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row9 col0" id="T_bfa5c_row9_col0">  Niti je, niti ni pomembno</td>
-<td class="data row9 col1" id="T_bfa5c_row9_col1">20 (3.1%)</td>
-</tr>
-<tr>
-<td class="data row10 col0" id="T_bfa5c_row10_col0">  Sploh ni pomembno</td>
-<td class="data row10 col1" id="T_bfa5c_row10_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row11 col0" id="T_bfa5c_row11_col0">  Zelo je pomembno</td>
-<td class="data row11 col1" id="T_bfa5c_row11_col1">246 (38.0%)</td>
-</tr>
-<tr>
-<td class="data row12 col0" id="T_bfa5c_row12_col0">pogoji za trening in tekmovanje</td>
-<td class="data row12 col1" id="T_bfa5c_row12_col1"></td>
-</tr>
-<tr>
-<td class="data row13 col0" id="T_bfa5c_row13_col0">  Je pomembno</td>
-<td class="data row13 col1" id="T_bfa5c_row13_col1">231 (35.7%)</td>
-</tr>
-<tr>
-<td class="data row14 col0" id="T_bfa5c_row14_col0">  Ni pomembno</td>
-<td class="data row14 col1" id="T_bfa5c_row14_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row15 col0" id="T_bfa5c_row15_col0">  Niti je, niti ni pomembno</td>
-<td class="data row15 col1" id="T_bfa5c_row15_col1">6 (0.9%)</td>
-</tr>
-<tr>
-<td class="data row16 col0" id="T_bfa5c_row16_col0">  Sploh ni pomembno</td>
-<td class="data row16 col1" id="T_bfa5c_row16_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row17 col0" id="T_bfa5c_row17_col0">  Zelo je pomembno</td>
-<td class="data row17 col1" id="T_bfa5c_row17_col1">408 (63.1%)</td>
-</tr>
-<tr>
-<td class="data row18 col0" id="T_bfa5c_row18_col0">stiki z drugimi strokovnjaki</td>
-<td class="data row18 col1" id="T_bfa5c_row18_col1"></td>
-</tr>
-<tr>
-<td class="data row19 col0" id="T_bfa5c_row19_col0">  Je pomembno</td>
-<td class="data row19 col1" id="T_bfa5c_row19_col1">364 (56.3%)</td>
-</tr>
-<tr>
-<td class="data row20 col0" id="T_bfa5c_row20_col0">  Ni pomembno</td>
-<td class="data row20 col1" id="T_bfa5c_row20_col1">3 (0.5%)</td>
-</tr>
-<tr>
-<td class="data row21 col0" id="T_bfa5c_row21_col0">  Niti je, niti ni pomembno</td>
-<td class="data row21 col1" id="T_bfa5c_row21_col1">53 (8.2%)</td>
-</tr>
-<tr>
-<td class="data row22 col0" id="T_bfa5c_row22_col0">  Sploh ni pomembno</td>
-<td class="data row22 col1" id="T_bfa5c_row22_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row23 col0" id="T_bfa5c_row23_col0">  Zelo je pomembno</td>
-<td class="data row23 col1" id="T_bfa5c_row23_col1">226 (34.9%)</td>
-</tr>
-<tr>
-<td class="data row24 col0" id="T_bfa5c_row24_col0">ustvarjalno delo</td>
-<td class="data row24 col1" id="T_bfa5c_row24_col1"></td>
-</tr>
-<tr>
-<td class="data row25 col0" id="T_bfa5c_row25_col0">  Je pomembno</td>
-<td class="data row25 col1" id="T_bfa5c_row25_col1">378 (58.5%)</td>
-</tr>
-<tr>
-<td class="data row26 col0" id="T_bfa5c_row26_col0">  Ni pomembno</td>
-<td class="data row26 col1" id="T_bfa5c_row26_col1">3 (0.5%)</td>
-</tr>
-<tr>
-<td class="data row27 col0" id="T_bfa5c_row27_col0">  Niti je, niti ni pomembno</td>
-<td class="data row27 col1" id="T_bfa5c_row27_col1">32 (5.0%)</td>
-</tr>
-<tr>
-<td class="data row28 col0" id="T_bfa5c_row28_col0">  Sploh ni pomembno</td>
-<td class="data row28 col1" id="T_bfa5c_row28_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row29 col0" id="T_bfa5c_row29_col0">  Zelo je pomembno</td>
-<td class="data row29 col1" id="T_bfa5c_row29_col1">232 (35.9%)</td>
-</tr>
-<tr>
-<td class="data row30 col0" id="T_bfa5c_row30_col0">rezultatski uspehi</td>
-<td class="data row30 col1" id="T_bfa5c_row30_col1"></td>
-</tr>
-<tr>
-<td class="data row31 col0" id="T_bfa5c_row31_col0">  Je pomembno</td>
-<td class="data row31 col1" id="T_bfa5c_row31_col1">345 (53.2%)</td>
-</tr>
-<tr>
-<td class="data row32 col0" id="T_bfa5c_row32_col0">  Ni pomembno</td>
-<td class="data row32 col1" id="T_bfa5c_row32_col1">46 (7.1%)</td>
-</tr>
-<tr>
-<td class="data row33 col0" id="T_bfa5c_row33_col0">  Niti je, niti ni pomembno</td>
-<td class="data row33 col1" id="T_bfa5c_row33_col1">165 (25.5%)</td>
-</tr>
-<tr>
-<td class="data row34 col0" id="T_bfa5c_row34_col0">  Sploh ni pomembno</td>
-<td class="data row34 col1" id="T_bfa5c_row34_col1">2 (0.3%)</td>
-</tr>
-<tr>
-<td class="data row35 col0" id="T_bfa5c_row35_col0">  Zelo je pomembno</td>
-<td class="data row35 col1" id="T_bfa5c_row35_col1">90 (13.9%)</td>
-</tr>
-<tr>
-<td class="data row36 col0" id="T_bfa5c_row36_col0">napredek mladih nogometašev</td>
-<td class="data row36 col1" id="T_bfa5c_row36_col1"></td>
-</tr>
-<tr>
-<td class="data row37 col0" id="T_bfa5c_row37_col0">  Je pomembno</td>
-<td class="data row37 col1" id="T_bfa5c_row37_col1">173 (26.7%)</td>
-</tr>
-<tr>
-<td class="data row38 col0" id="T_bfa5c_row38_col0">  Ni pomembno</td>
-<td class="data row38 col1" id="T_bfa5c_row38_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row39 col0" id="T_bfa5c_row39_col0">  Niti je, niti ni pomembno</td>
-<td class="data row39 col1" id="T_bfa5c_row39_col1">7 (1.1%)</td>
-</tr>
-<tr>
-<td class="data row40 col0" id="T_bfa5c_row40_col0">  Sploh ni pomembno</td>
-<td class="data row40 col1" id="T_bfa5c_row40_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row41 col0" id="T_bfa5c_row41_col0">  Zelo je pomembno</td>
-<td class="data row41 col1" id="T_bfa5c_row41_col1">465 (71.9%)</td>
-</tr>
-<tr>
-<td class="data row42 col0" id="T_bfa5c_row42_col0">podpora vodstvenih struktur v klubu</td>
-<td class="data row42 col1" id="T_bfa5c_row42_col1"></td>
-</tr>
-<tr>
-<td class="data row43 col0" id="T_bfa5c_row43_col0">  Je pomembno</td>
-<td class="data row43 col1" id="T_bfa5c_row43_col1">283 (43.7%)</td>
-</tr>
-<tr>
-<td class="data row44 col0" id="T_bfa5c_row44_col0">  Ni pomembno</td>
-<td class="data row44 col1" id="T_bfa5c_row44_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row45 col0" id="T_bfa5c_row45_col0">  Niti je, niti ni pomembno</td>
-<td class="data row45 col1" id="T_bfa5c_row45_col1">16 (2.5%)</td>
-</tr>
-<tr>
-<td class="data row46 col0" id="T_bfa5c_row46_col0">  Sploh ni pomembno</td>
-<td class="data row46 col1" id="T_bfa5c_row46_col1">1 (0.2%)</td>
-</tr>
-<tr>
-<td class="data row47 col0" id="T_bfa5c_row47_col0">  Zelo je pomembno</td>
-<td class="data row47 col1" id="T_bfa5c_row47_col1">346 (53.5%)</td>
-</tr>
-<tr>
-<td class="data row48 col0" id="T_bfa5c_row48_col0">Podpora vodilnih na NZS</td>
-<td class="data row48 col1" id="T_bfa5c_row48_col1"></td>
-</tr>
-<tr>
-<td class="data row49 col0" id="T_bfa5c_row49_col0">  Je pomembno</td>
-<td class="data row49 col1" id="T_bfa5c_row49_col1">250 (38.6%)</td>
-</tr>
-<tr>
-<td class="data row50 col0" id="T_bfa5c_row50_col0">  Ni pomembno</td>
-<td class="data row50 col1" id="T_bfa5c_row50_col1">20 (3.1%)</td>
-</tr>
-<tr>
-<td class="data row51 col0" id="T_bfa5c_row51_col0">  Niti je, niti ni pomembno</td>
-<td class="data row51 col1" id="T_bfa5c_row51_col1">74 (11.4%)</td>
-</tr>
-<tr>
-<td class="data row52 col0" id="T_bfa5c_row52_col0">  Sploh ni pomembno</td>
-<td class="data row52 col1" id="T_bfa5c_row52_col1">11 (1.7%)</td>
-</tr>
-<tr>
-<td class="data row53 col0" id="T_bfa5c_row53_col0">  Zelo je pomembno</td>
-<td class="data row53 col1" id="T_bfa5c_row53_col1">292 (45.1%)</td>
-</tr>
-</tbody>
-</table>
-</div>
+<h4 id="Graf,-ki-prikazuje-glavne-probleme-pri-delu.">Graf, ki prikazuje <em><strong>glavne probleme pri delu</strong></em>.<a class="anchor-link" href="#Graf,-ki-prikazuje-glavne-probleme-pri-delu.">¶</a></h4>
 </div>
 </div>
 </div>
