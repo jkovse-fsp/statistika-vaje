@@ -14,3 +14,5 @@
 - [Vaja 6.1](Vaja_6_1_regresija.html)
 - [Vaja 6.2](Vaja_6_2_regresija.html)
 - [Poročilo dveh člankov](porocilo-statistika.pdf)
+
+Jaka Kovše (jaka.kovse@fsp.uni-lj.si)
