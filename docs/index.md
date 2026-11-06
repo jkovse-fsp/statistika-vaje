@@ -1,3 +1,8 @@
+### Poročilo Metode kineziološkega raziskovanja II
+
+* [Poročilo MKR II brez kode](model_comparison_without_code.html)
+* [Poročilo MKR II s kodo](model_comparison.html)
+
 ### Poročilo metode proučevanja dolgotrajnega napora
 
 * [Poročilo obremenitveni test](metode_proučevanja_doglotrajnega_napora.html)
