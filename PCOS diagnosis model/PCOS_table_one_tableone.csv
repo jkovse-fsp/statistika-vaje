@@ -1,0 +1,62 @@
+,,Grouped by PCOS (Y/N),Grouped by PCOS (Y/N),Grouped by PCOS (Y/N),Grouped by PCOS (Y/N),Grouped by PCOS (Y/N)
+,,Missing,0,1,P-Value,Test
+n,,,364,177,,
+" Age (yrs), median [Q1,Q3]",,0,"32.0 [28.0,36.0]","29.0 [27.0,33.0]",<0.001,Kruskal-Wallis
+"Weight (Kg), median [Q1,Q3]",,0,"58.0 [52.0,64.0]","62.0 [55.0,70.0]",<0.001,Kruskal-Wallis
+"Height(Cm) , median [Q1,Q3]",,0,"156.0 [152.0,160.0]","158.0 [152.0,161.0]",0.160,Kruskal-Wallis
+"BMI, median [Q1,Q3]",,0,"23.6 [21.4,26.1]","25.1 [23.0,28.3]",<0.001,Kruskal-Wallis
+"Pulse rate(bpm) , median [Q1,Q3]",,0,"72.0 [72.0,74.0]","72.0 [72.0,74.0]",0.004,Kruskal-Wallis
+"RR (breaths/min), median [Q1,Q3]",,0,"18.0 [18.0,20.0]","20.0 [18.0,20.0]",0.281,Kruskal-Wallis
+"Hb(g/dl), median [Q1,Q3]",,0,"11.0 [10.5,11.5]","11.0 [10.7,11.9]",0.025,Kruskal-Wallis
+"Cycle length(days), median [Q1,Q3]",,0,"5.0 [5.0,6.0]","5.0 [3.0,5.0]",<0.001,Kruskal-Wallis
+"Marraige Status (Yrs), mean (SD)",,1,8.1 (4.8),6.9 (4.7),0.008,Welch’s T-test
+"No. of aborptions, median [Q1,Q3]",,0,"0.0 [0.0,0.0]","0.0 [0.0,0.0]",0.424,Kruskal-Wallis
+"  I   beta-HCG(mIU/mL), median [Q1,Q3]",,0,"13.7 [2.0,273.9]","70.5 [2.0,346.6]",0.068,Kruskal-Wallis
+"II    beta-HCG(mIU/mL), mean (SD)",,1,224.0 (1437.0),269.1 (1911.0),0.782,Welch’s T-test
+"FSH(mIU/mL), median [Q1,Q3]",,0,"5.0 [3.4,6.6]","4.5 [3.2,5.8]",0.007,Kruskal-Wallis
+"LH(mIU/mL), median [Q1,Q3]",,0,"2.3 [1.0,3.6]","2.2 [1.0,4.3]",0.353,Kruskal-Wallis
+"FSH/LH, median [Q1,Q3]",,0,"2.4 [1.6,4.1]","2.0 [1.1,3.3]",0.006,Kruskal-Wallis
+"Hip(inch), median [Q1,Q3]",,0,"38.0 [36.0,40.0]","39.0 [36.0,42.0]",<0.001,Kruskal-Wallis
+"Waist(inch), median [Q1,Q3]",,0,"34.0 [32.0,35.0]","35.0 [32.0,37.0]",<0.001,Kruskal-Wallis
+"Waist:Hip Ratio, median [Q1,Q3]",,0,"0.9 [0.9,0.9]","0.9 [0.9,0.9]",0.655,Kruskal-Wallis
+"TSH (mIU/L), median [Q1,Q3]",,0,"2.2 [1.5,3.6]","2.3 [1.6,3.5]",0.715,Kruskal-Wallis
+"AMH(ng/mL), mean (SD)",,1,4.5 (4.3),7.8 (7.8),<0.001,Welch’s T-test
+"PRL(ng/mL), median [Q1,Q3]",,0,"21.2 [14.7,29.6]","22.9 [14.1,30.3]",0.592,Kruskal-Wallis
+"Vit D3 (ng/mL), median [Q1,Q3]",,0,"26.3 [21.3,35.7]","25.4 [19.3,33.7]",0.230,Kruskal-Wallis
+"PRG(ng/mL), median [Q1,Q3]",,0,"0.3 [0.2,0.5]","0.3 [0.2,0.4]",0.385,Kruskal-Wallis
+"RBS(mg/dl), median [Q1,Q3]",,0,"96.0 [92.0,107.2]","100.0 [92.0,107.0]",0.345,Kruskal-Wallis
+"BP _Systolic (mmHg), median [Q1,Q3]",,0,"110.0 [110.0,120.0]","110.0 [110.0,120.0]",0.948,Kruskal-Wallis
+"BP _Diastolic (mmHg), median [Q1,Q3]",,0,"80.0 [70.0,80.0]","80.0 [70.0,80.0]",0.470,Kruskal-Wallis
+"Follicle No. (L), median [Q1,Q3]",,0,"4.0 [2.0,6.0]","10.0 [7.0,12.0]",<0.001,Kruskal-Wallis
+"Follicle No. (R), median [Q1,Q3]",,0,"4.0 [2.0,7.0]","11.0 [8.0,13.0]",<0.001,Kruskal-Wallis
+"Avg. F size (L) (mm), median [Q1,Q3]",,0,"15.0 [12.4,18.0]","16.0 [14.0,18.0]",0.009,Kruskal-Wallis
+"Avg. F size (R) (mm), median [Q1,Q3]",,0,"15.0 [13.0,18.0]","16.0 [14.0,18.0]",0.026,Kruskal-Wallis
+"Endometrium (mm), median [Q1,Q3]",,0,"8.3 [7.0,9.5]","8.9 [7.6,10.0]",0.005,Kruskal-Wallis
+"Blood Group, n (%)",11,,74 (20.3),34 (19.2),0.957,Chi-squared (warning: expected count < 5)
+"Blood Group, n (%)",12,,9 (2.5),4 (2.3),,
+"Blood Group, n (%)",13,,93 (25.5),42 (23.7),,
+"Blood Group, n (%)",14,,10 (2.7),6 (3.4),,
+"Blood Group, n (%)",15,,140 (38.5),66 (37.3),,
+"Blood Group, n (%)",16,,11 (3.0),8 (4.5),,
+"Blood Group, n (%)",17,,26 (7.1),16 (9.0),,
+"Blood Group, n (%)",18,,1 (0.3),1 (0.6),,
+"Cycle(R/I), n (%)",0.0,,308 (84.6),82 (46.3),<0.001,Chi-squared (warning: expected count < 5)
+"Cycle(R/I), n (%)",1.0,,56 (15.4),94 (53.1),,
+"Cycle(R/I), n (%)",None,,0 (0.0),1 (0.6),,
+"Pregnant(Y/N), n (%)",0,,222 (61.0),113 (63.8),0.585,Chi-squared
+"Pregnant(Y/N), n (%)",1,,142 (39.0),64 (36.2),,
+"Weight gain(Y/N), n (%)",0,,281 (77.2),56 (31.6),<0.001,Chi-squared
+"Weight gain(Y/N), n (%)",1,,83 (22.8),121 (68.4),,
+"hair growth(Y/N), n (%)",0,,317 (87.1),76 (42.9),<0.001,Chi-squared
+"hair growth(Y/N), n (%)",1,,47 (12.9),101 (57.1),,
+"Skin darkening (Y/N), n (%)",0,,308 (84.6),67 (37.9),<0.001,Chi-squared
+"Skin darkening (Y/N), n (%)",1,,56 (15.4),110 (62.1),,
+"Hair loss(Y/N), n (%)",0,,221 (60.7),75 (42.4),<0.001,Chi-squared
+"Hair loss(Y/N), n (%)",1,,143 (39.3),102 (57.6),,
+"Pimples(Y/N), n (%)",0,,222 (61.0),54 (30.5),<0.001,Chi-squared
+"Pimples(Y/N), n (%)",1,,142 (39.0),123 (69.5),,
+"Fast food (Y/N), n (%)",0.0,,224 (61.5),38 (21.5),<0.001,Chi-squared (warning: expected count < 5)
+"Fast food (Y/N), n (%)",1.0,,139 (38.2),139 (78.5),,
+"Fast food (Y/N), n (%)",None,,1 (0.3),0 (0.0),,
+"Reg.Exercise(Y/N), n (%)",0,,281 (77.2),126 (71.2),0.157,Chi-squared
+"Reg.Exercise(Y/N), n (%)",1,,83 (22.8),51 (28.8),,
